@@ -1,1 +1,1 @@
-Written by @Stebalien.
+Original author: [Steven Allen](https://github.com/Stebalien).
