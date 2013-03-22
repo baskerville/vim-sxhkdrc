@@ -8,7 +8,7 @@ syn match sxComment "^#.*$"
 syn match sxHotkey "[^ #].*" contains=sxKeysym,sxModifier,sxConj,sxSequence
 syn match sxCommand "^ .*$" containedin=ALL contains=@Shell
 syn match sxKeysym "[^ {,}+-]\+" contained contains=sxAction
-syn match sxAction "[!@]" contained
+syn match sxAction "[@!:]" contained
 syn match sxConj "+" contained
 syn match sxComma "," contained
 syn match sxHyphen "-" contained
