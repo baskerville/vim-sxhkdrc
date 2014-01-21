@@ -6,7 +6,7 @@ syntax include @Shell syntax/sh.vim
 
 syn match sxComment "^#.*$"
 syn match sxHotkey "[^ #].*" contains=sxKeysym,sxModifier,sxHotkeySep,sxSequence
-syn match sxCommand "^ .*$" containedin=ALL contains=@Shell
+syn match sxCommand "^\s.*$" containedin=ALL contains=@Shell
 syn keyword sxModifier super hyper meta alt control ctrl shift mode_switch lock mod1 mod2 mod3 mod4 mod5 contained
 syn match sxKeysym "[^ :;{,}+-]\+" contained contains=sxAction
 syn match sxAction "[@!~]" contained
